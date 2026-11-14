@@ -1,0 +1,6 @@
+AGENT RUN STEP 16 — confusion-matrix figure
+run_utc: 2026-11-14T13:24:31.537920+00:00
+random seed fixed at 42 (no stochastic step)
+figure written: results\agent_run\confusion_matrix.png (339945 bytes); results\agent_run\confusion_matrix.pdf
+panel values: total n=200; row totals=[73, 53, 52, 22]
+caption written: results\agent_run\confusion_matrix_caption.md

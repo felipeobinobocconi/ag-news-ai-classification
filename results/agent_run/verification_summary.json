@@ -1,0 +1,85 @@
+{
+  "script": "src/17_agent_run_verify_outputs.py",
+  "run_utc": "2026-11-14T13:26:19.052800+00:00",
+  "all_checks_passed": true,
+  "n_checks": 28,
+  "checks_failed": [],
+  "recomputed": {
+    "n_items": 200,
+    "agreements": 162,
+    "disagreements": 38,
+    "agreement_rate": 0.81,
+    "agreement_wilson_95": [
+      0.7499876129240015,
+      0.8583282847220932
+    ],
+    "confusion_matrix_counts": [
+      [
+        51,
+        3,
+        14,
+        5
+      ],
+      [
+        1,
+        50,
+        2,
+        0
+      ],
+      [
+        2,
+        0,
+        39,
+        11
+      ],
+      [
+        0,
+        0,
+        0,
+        22
+      ]
+    ],
+    "pooled_n": 74,
+    "pooled_disagreements": 13,
+    "pooled_rate": 0.17567567567567569,
+    "pooled_wilson_95": [
+      0.10564208536683116,
+      0.27771993370109493
+    ],
+    "sports_n": 53,
+    "sports_disagreements": 3,
+    "sports_rate": 0.05660377358490566,
+    "sports_wilson_95": [
+      0.019436661484935766,
+      0.15370208310180888
+    ],
+    "difference": 0.11907190209077002,
+    "difference_pp": 11.907190209077003,
+    "difference_ci_95": [
+      -0.0006477098472387893,
+      0.2276740421148509
+    ],
+    "difference_ci_95_pp": [
+      -0.06477098472387893,
+      22.76740421148509
+    ]
+  },
+  "statsmodels_cross_check": {
+    "pooled_wilson_95": [
+      0.10564208536683115,
+      0.27771993370109505
+    ],
+    "sports_wilson_95": [
+      0.019436661484935752,
+      0.15370208310180894
+    ],
+    "overall_wilson_95": [
+      0.7499876129240015,
+      0.8583282847220932
+    ],
+    "newcombe_rebuilt": [
+      -0.000647709847238831,
+      0.22767404211485098
+    ]
+  }
+}

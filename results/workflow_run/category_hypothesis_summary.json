@@ -1,0 +1,40 @@
+{
+  "script": "src/12_category_hypothesis.py",
+  "input": "results/workflow_run/comparison_table.csv",
+  "groups": {
+    "pooled_business_scitech": {
+      "items": 74,
+      "disagreements": 13,
+      "rate": 0.17567567567567569,
+      "wilson_95": [
+        0.10564208536683117,
+        0.277719933701095
+      ],
+      "uncertain_kept": 26
+    },
+    "sports": {
+      "items": 53,
+      "disagreements": 3,
+      "rate": 0.05660377358490566,
+      "wilson_95": [
+        0.019436661484935766,
+        0.15370208310180888
+      ],
+      "uncertain_kept": 4
+    }
+  },
+  "difference_pp": 11.907190209077003,
+  "newcombe_95_pp": [
+    -0.06477098472387754,
+    22.767404211485097
+  ],
+  "method": "Newcombe (1998) method 10 interval for p1 - p2 using Wilson score intervals; 95%; z=1.959964",
+  "assumptions": [
+    "The two groups are independent (disjoint, independently classified items).",
+    "Within each group, disagreement indicators are treated as binomial draws.",
+    "Wilson/Newcombe intervals are approximate and may be asymmetric.",
+    "No continuity correction; no multiple-comparison adjustment.",
+    "Uncertain human annotations are included in the primary analysis."
+  ],
+  "note": "Agreement with one human reference, not accuracy against ground truth. No causal claim; no generalization beyond this sample and setup."
+}

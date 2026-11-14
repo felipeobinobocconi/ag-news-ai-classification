@@ -1,0 +1,64 @@
+AGENT RUN STEP 13 — input verification and ID validation
+run_utc: 2026-11-14T13:24:10.507745+00:00
+random seed fixed at 42 (no stochastic step in this script)
+
+AUTHORISED INPUTS ONLY:
+  - data\derived\evaluation_200_labelled.xlsx
+  - results\ai_classification\evaluation_gemini\ai_classifications.csv
+  - data\derived\evaluation_manifest.csv
+NOT read: results/workflow_run/, src/11*, src/12*, data/raw/, .env
+
+STEP 1 — SHA-256 verification against freeze notes
+  CHECK PASS: labelled workbook SHA-256 matches manual labels freeze note
+  CHECK PASS: AI classification CSV SHA-256 matches AI freeze note
+  CHECK PASS: codebook SHA-256 matches codebook freeze note (context check)
+  CHECK PASS: manifest SHA-256 recorded for traceability (no freeze-note hash exists for it)
+  workbook observed: D71C12E8FBD7E070698413FCB341F162665CB0101A5539A454D25CB49203948A
+  AI CSV observed:   760633BD862E1902772A93B02DEE3CFF1492295451BAED3A794F215C3FC78AFB
+  manifest observed: 1F0417686F17DF69766BB5ACED25557B04890FDE99A40018098DCC5FF8D048CD (no recorded reference hash)
+
+STEP 2 — read inputs (no text is displayed or reviewed)
+  row counts before any step: workbook=200, AI=200, manifest=200
+  CHECK PASS: labelled workbook has required columns
+  CHECK PASS: AI CSV has required columns
+  CHECK PASS: manifest has required columns
+
+STEP 3 — ID and domain validation
+  CHECK PASS: workbook has exactly 200 rows
+  CHECK PASS: AI CSV has exactly 200 rows
+  CHECK PASS: manifest has exactly 200 rows
+  CHECK PASS: workbook item_id is unique
+  CHECK PASS: AI item_id is unique
+  CHECK PASS: manifest item_id is unique
+  CHECK PASS: manifest source_row_position is unique
+  CHECK PASS: workbook IDs are exactly eval_001..eval_200
+  CHECK PASS: AI IDs are exactly eval_001..eval_200
+  CHECK PASS: manifest IDs are exactly eval_001..eval_200
+  CHECK PASS: workbook, AI and manifest ID sets are identical
+  CHECK PASS: manifest positions lie within documented source range 0..7599
+  CHECK PASS: workbook has no blank text values
+  CHECK PASS: all human_label values are valid 0-3
+  CHECK PASS: all AI label values are valid 0-3
+  CHECK PASS: all human_confidence values are confident/uncertain
+  CHECK PASS: every uncertain item has a nonblank uncertainty_reason
+  CHECK PASS: all AI calls have status ok
+  CHECK PASS: all AI calls have finish_reason STOP
+  CHECK PASS: all AI calls report one model version
+  CHECK PASS: all AI attempt counts are positive integers
+
+STEP 4 — one-to-one join on item_id
+  row counts: human=200, AI=200, after inner one-to-one join=200
+  reason: join adds AI labels to human rows by exact item_id; no filter or drop is applied
+  matched=200, human-only=0, AI-only=0
+  CHECK PASS: join retains exactly 200 rows
+  CHECK PASS: join matches both sides for every row
+  CHECK PASS: join drops no human row
+  CHECK PASS: join drops no AI row
+  analysis dataset written: results\agent_run\analysis_dataset.csv (200 rows, no text column)
+
+STEP 5 — descriptive counts (full primary sample)
+  rows=200; agreements=162; disagreements=38
+  human_confidence: confident=154, uncertain=46
+  human_label counts: 0 (World)=73, 1 (Sports)=53, 2 (Business)=52, 3 (Sci/Tech)=22
+
+files written: results\agent_run\input_hashes.csv; results\agent_run\input_verification.md; results\agent_run\analysis_dataset.csv; results\agent_run\13_run_log.txt

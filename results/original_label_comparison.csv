@@ -1,0 +1,3 @@
+comparison,n,matches,agreement_rate,wilson_95_low,wilson_95_high
+human_vs_dataset,200,147,0.735,0.6698242380737758,0.7913184585289088
+ai_vs_dataset,200,164,0.82,0.7608852497127511,0.8670537414057983

@@ -1,0 +1,19 @@
+AGENT RUN STEP 15 — category disagreement comparison
+run_utc: 2026-11-14T13:26:12.336464+00:00
+random seed fixed at 42 (no stochastic step)
+input: results\agent_run\analysis_dataset.csv
+row count on read: 200
+
+STEP 1 — group construction from human labels
+  rows before group restriction: 200
+  excluded World (human_label=0): 73 (outside the pre-specified comparison)
+  rows after group restriction: 127 (all rows retained for Business/Sci-Tech/Sports)
+
+STEP 2 — disagreement rates and difference
+  pooled Business/Sci-Tech: 13/74 disagreements = 0.175676 (Wilson 95% 0.105642 to 0.277720)
+  Sports: 3/53 disagreements = 0.056604 (Wilson 95% 0.019437 to 0.153702)
+  difference (pooled - Sports): +0.119072 = +11.91 pp
+  Newcombe 95% interval: -0.000648 to +0.227674 (-0.06 to +22.77 pp)
+  no continuity correction; no p-value computed
+
+files written: results\agent_run\group_disagreement.csv; results\agent_run\category_disagreement.csv; results\agent_run\difference_summary.json; results\agent_run\category_hypothesis_report.md; results\agent_run\15_run_log.txt

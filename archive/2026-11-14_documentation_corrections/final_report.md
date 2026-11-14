@@ -1,0 +1,340 @@
+# Final report — AI topic suggestions versus manual classification
+
+- Project: AG News topic-classification agreement study
+- Report date: 2026-11-14
+- Scope: one frozen manual classification, one frozen AI classification, and the
+  supporting verification and review records
+
+This report consolidates saved results. It does not introduce a new primary
+analysis. Every quantitative statement below is taken from the linked result
+files and their producing scripts.
+
+## 1. Customer, problem and value theory
+
+The proposed customer is an editor in a small digital newsroom who sorts
+incoming news into sections. The problem is the manual effort of first-pass
+topic sorting. The proposed value theory is that AI-generated topic suggestions,
+used with an explicit codebook and human validation, could reduce that effort
+while keeping categorisation acceptable. This is a value theory to investigate,
+not an established customer benefit or a claim that an editorial product exists.
+
+The research question is: how closely does AI topic classification agree with
+the student's independent manual classification of AG News texts, and which
+categories generate more disagreements? See `plan.md`.
+
+## 2. Hypothesis, design and execution
+
+The pre-specified hypothesis was that the disagreement rate would be higher for
+texts manually labelled Business or Sci/Tech than for texts manually labelled
+Sports.
+
+The design was:
+
+1. **Preparation.** Twenty preparation texts were used to test and clarify the
+   codebook. They informed version 0.3 and the frozen version 1.0, and were
+   excluded from the evaluation sample. Preparation involved documented
+   ChatGPT assistance; see `results/preparation_assistance_note.md`.
+2. **Frozen codebook.** `codebook.md` version 1.0 was frozen on 2026-11-12
+   (SHA-256 `9EB79D7BD0EDBDA2E9D856B68F0A6A72E97061F463652C58BD04056FC6148A7E`).
+   Both the human and AI classifications use the same Part A rules; confidence
+   and uncertainty fields are human-only and never entered the AI prompt. See
+   `results/codebook_freeze_note.md`.
+3. **Evaluation sample.** Two hundred items were sampled uniformly without
+   replacement, with seed 42, from the 7,580 AG News test rows remaining after
+   excluding the 20 preparation positions. This is a probability sample of that
+   remaining benchmark pool, not a representative sample of all news. The
+   manifest maps each `item_id` to its original zero-based source position.
+   See `results/evaluation_sampling_summary.md`.
+4. **Human labelling before AI.** The student labelled all 200 texts, recording
+   label, confidence and, for uncertain items, a short reason, before seeing any
+   AI classification or original dataset label. The labels were frozen on
+   2026-11-12; see `results/manual_labels_freeze_note.md` and
+   `results/manual_annotation_verification.md`.
+5. **AI classification.** The final classifier was `gemini-3.5-flash-lite`
+   (v1beta), called through one direct HTTPS request per text. The request was
+   single-turn, with the frozen codebook Part A embedded, no tools, no search
+   grounding and no conversation history; settings were temperature 0.0,
+   `maxOutputTokens` 1024 and one candidate. The news text was framed as
+   untrusted data, and the label was parsed from the final response text only.
+   All 200 items completed with valid labels. See
+   `results/ai_classification/evaluation_gemini/classification_freeze_note.md`,
+   `preflight_report.md`, and the per-item `meta/` records.
+6. **Freeze before comparison.** The human labels and AI labels were frozen
+   before the primary comparison. Original dataset labels remained hidden until
+   both classifications were complete; they are used only in the secondary
+   comparison in section 5.
+
+## 3. Primary results
+
+### 3.1 Overall agreement
+
+The two frozen classifications agree on **162/200 items (81.0%)**. The 95%
+Wilson interval is **75.0% to 85.8%**. This is exact agreement with one human
+reference, not accuracy against ground truth.
+
+Source: `results/agent_run/agreement_summary.json` and
+`results/agent_run/agreement_report.md`, produced by
+`src/14_agent_run_agreement.py`; the same figures are in the workflow run and
+were reconciled in `results/run_comparison.md`.
+
+### 3.2 Confusion matrix
+
+Rows are the human label; columns are the AI label. Category order is World,
+Sports, Business, Sci/Tech.
+
+| Human \ AI | World | Sports | Business | Sci/Tech | Total |
+| --- | --- | --- | --- | --- | --- |
+| World | 51 | 3 | 14 | 5 | 73 |
+| Sports | 1 | 50 | 2 | 0 | 53 |
+| Business | 2 | 0 | 39 | 11 | 52 |
+| Sci/Tech | 0 | 0 | 0 | 22 | 22 |
+| **AI total** | 54 | 53 | 55 | 38 | 200 |
+
+Source: `results/agent_run/confusion_matrix_counts.csv`; figure in
+`results/agent_run/confusion_matrix.png` and `.pdf`, produced by
+`src/14_agent_run_agreement.py` and `src/16_agent_run_confusion_figure.py`.
+
+Per human-labelled category, agreement was 51/73 (69.9%) for World, 50/53
+(94.3%) for Sports, 39/52 (75.0%) for Business and 22/22 (100.0%) for Sci/Tech.
+These are descriptive rates in this sample.
+
+### 3.3 Category comparison
+
+| Group | Items | Disagreements | Rate | Wilson 95% |
+| --- | --- | --- | --- | --- |
+| Pooled Business/Sci-Tech | 74 | 13 | 13/74 = 17.57% | 10.56% to 27.77% |
+| Sports | 53 | 3 | 3/53 = 5.66% | 1.94% to 15.37% |
+
+The observed difference (pooled minus Sports) is **+11.91 percentage points**,
+with a 95% Newcombe interval of **−0.06 to +22.77 percentage points**. The
+interval includes zero, so the category hypothesis is **inconclusive at the 95%
+level** in this sample. The positive point estimate is consistent with the
+hypothesised direction, but the data do not establish it.
+
+Uncertain human annotations remain in the primary analysis by design. The
+confident/uncertain split is exploratory and agent-added: 135/154 (87.7%)
+agreement among confident items and 27/46 (58.7%) among uncertain items. It is
+not the primary hypothesis test. Sources:
+`results/workflow_run/category_hypothesis_summary.json`, produced by
+`src/12_category_hypothesis.py`; `results/agent_run/agreement_summary.json`.
+
+## 4. Qualitative review of disagreements
+
+The student reviewed all **38** disagreements in
+`results/disagreement_review_completed.xlsx`, after seeing both labels, and
+recorded an explanation and assessment for every item. A validation script
+confirmed that the reviewed IDs exactly match the frozen disagreement set, all
+texts match the raw texts retrieved through the manifest, and labels,
+confidence and original uncertainty reasons are unchanged. There were no blank
+explanations or assessments. See `results/qualitative_review_summary.md` and
+`results/qualitative_review_summary.json`, produced by
+`src/20_consolidate_review.py`.
+
+The student's retrospective assessments were:
+
+| Assessment | Items |
+| --- | --- |
+| AI label better supported | 23 |
+| Human label better supported | 8 |
+| Both defensible | 7 |
+
+These are the student's judgments after both labels were visible. They are not
+independent adjudication, not ground truth, and not a revised accuracy measure.
+
+The disagreements clustered on two boundaries: World to Business (14 items) and
+Business to Sci/Tech (11 items), followed by World to Sci/Tech (5). The review
+comments illustrate the kind of judgment involved:
+
+- `eval_006` (human Business, AI World; student: AI better supported): the
+  student read the text as a city marketing strategy rather than a business
+  story.
+- `eval_030` (human Business, AI Sci/Tech; student: human better supported): the
+  student read it as a product announcement that does not explain the
+  technology.
+- `eval_016` (human Business, AI Sci/Tech; student: both defensible): the
+  student found the focus genuinely arguable between a business partnership and
+  the cybersecurity theme.
+- `eval_181` (human World, AI Business; student: AI better supported): the
+  student focused on the text's discussion of unemployment and economic
+  effects.
+
+The full explanations are in the completed workbook. These examples illustrate
+the student's reasoning; they are not presented as established facts about the
+texts or as a resolution of which classifier is correct.
+
+## 5. Secondary comparison with the original dataset labels
+
+With both independent classifications frozen, the original dataset labels were
+read through `data/derived/evaluation_manifest.csv`. IDs, source positions and
+text alignment were validated: 200 unique IDs, 200 unique positions, and zero
+text mismatches between the raw texts retrieved through the manifest and the
+frozen workbook. See `results/original_label_comparison.md`,
+`results/original_label_comparison.csv` and
+`results/original_label_comparison.json`, produced by
+`src/21_original_label_comparison.py`.
+
+| Comparison | Matches | Items | Agreement | Wilson 95% |
+| --- | --- | --- | --- | --- |
+| Human vs original dataset label | 147 | 200 | 73.5% | 67.0% to 79.1% |
+| AI vs original dataset label | 164 | 200 | 82.0% | 76.1% to 86.7% |
+
+The original AG News labels are another reference of unknown reliability. No
+original annotation guidelines are available to this project, and label
+correctness has not been verified. The AI labels match this dataset reference
+more often than the human labels in this sample, but that is not an accuracy
+measure and does not revise the primary human-AI result.
+
+## 6. Workflow and autonomous execution
+
+Two implementations produced the saved analysis: a workflow run
+(`src/11_agreement_overall.py`, `src/12_category_hypothesis.py`, outputs in
+`results/workflow_run/`) and an autonomous run
+(`src/13_agent_run_verify_inputs.py` through
+`src/17_agent_run_verify_outputs.py`, outputs in `results/agent_run/`).
+They agree on all 200 item-level labels, all 16
+confusion-matrix cells, every group count and rate, and every interval endpoint.
+The reconciliation performed 69 checks with 0 failures; the largest interval
+endpoint difference was `7.10543e-15`. See `results/run_comparison.md`,
+produced by `src/18_reconcile_runs.py`.
+
+This is **implementation consistency, not independent validation** of the
+underlying classifications. Both implementations use the same frozen human
+labels and the same frozen AI labels, so their agreement adds no independent
+evidence about classification quality or accuracy.
+
+Two execution problems are documented:
+
+- **Workflow diagonal extraction.** The workflow comparison initially used
+  `cm.loc[pooled_rows].values.diagonal()` on a 2×4 slice. NumPy returned only two
+  cells, so pooled disagreements were reported as 72 instead of 13. The script's
+  own matrix consistency check stopped the run before outputs were written; the
+  correction sums the explicit Business and Sci/Tech diagonal cells, and the
+  rerun passed. Saved workflow outputs come from the corrected rerun.
+- **Autonomous search boundary.** During initial orientation, the autonomous run
+  listed files under `results/workflow_run/`, and a content search over
+  `results/*.md` traversed that directory with ripgrep. The returned output
+  contained workflow paths but no workflow file contents, and scripts 13–17 used
+  only the three authorised inputs. Because ripgrep reads files to search them,
+  process-level non-exposure cannot be fully verified. This is recorded as an
+  instruction-following failure in `mistakes.md`; the observed separation does
+  not prove the absence of every influence.
+
+## 7. Verification
+
+| Area | Result | Evidence |
+| --- | --- | --- |
+| Data properties | 7,600 raw rows, two columns, no missing or blank texts observed; 0 duplicate texts | `data/README.md`, `results/inspect_raw_agnews_summary.txt` |
+| Sampling and text alignment | 200 sampled from 7,580 after 20 exclusions; 200 unique IDs/positions; exact text matches; zero preparation overlap | `results/evaluation_sampling_summary.md`, `results/manual_annotation_verification.md` |
+| Frozen hashes | Human workbook `D71C12…948A`, AI CSV `760633…8AFB`, codebook `9EB79D…8A7E` match their freeze notes; no freeze-note hash exists for the manifest, whose observed hash is recorded | `results/manual_labels_freeze_note.md`, `results/ai_classification/evaluation_gemini/classification_freeze_note.md`, `results/codebook_freeze_note.md`, `results/agent_run/input_hashes.csv` |
+| Primary recomputation | 200 items, 162 agreements, 38 disagreements; matrix total and diagonal consistent | `results/agent_run/verification_report.md`, `src/17_agent_run_verify_outputs.py` |
+| Two-run reconciliation | 69 checks, 0 failures; all labels and cells identical | `results/run_comparison.md`, `src/18_reconcile_runs.py` |
+| Qualitative review | 38 IDs match; 0 text/label/confidence/reason mismatches; 0 blank review fields; 23/8/7 assessment counts match | `results/qualitative_review_summary.json`, `src/20_consolidate_review.py` |
+| Original labels | 200 unique IDs/positions; 0 text mismatches; secondary agreements 147/200 and 164/200 | `results/original_label_comparison.json`, `src/21_original_label_comparison.py` |
+| Student Excel check | F2:F201 compares `human_label` with `ai_label` directly; 200 items, 162 matches, 81% | `results/student_excel_verification.md`, `results/aiproject_manualcheck.xlsx` |
+
+The student's Excel verification was student-executed and AI-assisted (ChatGPT
+supplied the formulas; the student entered and executed them), outside the
+OpenCode analysis scripts. It checks arithmetic on the saved comparison table,
+not label correctness or the original join. It is not an unaided manual
+calculation.
+
+## 8. Agent mistakes and implications
+
+| Date | Mistake | Detection | Correction and implication |
+| --- | --- | --- | --- |
+| 2026-11-05 | During an inspection explicitly instructed not to create or modify files, files were created while the operation was described as "fully read-only". | The user compared the reported actions with the instruction. | The description was corrected: raw data was not modified, but the operation was not read-only overall. Task-specific restrictions override general permission to write results. |
+| 2026-11-14 | Workflow pooled disagreements used `diagonal()` on a 2×4 slice and reported 72 instead of 13. | The script's matrix consistency check stopped at message seq 1716, before outputs were written. | Explicit diagonal cells replaced the slice; the rerun at seq 1734 passed. The failure was caught before any saved result depended on it. |
+| 2026-11-14 | The autonomous run searched inside the excluded `results/workflow_run/` during orientation. | Recorded tool calls and the server log showed the glob, listing and ripgrep search; the returned output contained no workflow lines. | The traversal is recorded as an instruction-following failure. Tool-level reading is distinguished from content returned to the model; process-level non-exposure cannot be fully verified. |
+
+The full log is in `mistakes.md`.
+
+## 9. Reflection: where this could help and where review remains necessary
+
+On the recorded evidence, the most defensible use of this system is **decision
+support, not autonomous publishing**. The AI suggestion agreed exactly with the
+student's manual label on 162 of 200 texts (81.0%), with especially high
+agreement on human-labelled Sports (50/53) and Sci/Tech (22/22). An editor could
+use such suggestions to prioritise or pre-sort clear cases and to route
+boundary cases to review.
+
+The disagreement review shows why review cannot be removed. The largest
+disagreement pair was World to Business (14 items), followed by Business to
+Sci/Tech (11). These are exactly the cases where the codebook asks for a
+judgment about the main focus of a text: a political story with economic
+consequences, a product announcement without much technical explanation, or a
+business partnership with a security theme. In the retrospective review, 8
+disagreements were judged better supported by the human label and 7 as both
+defensible. That suggests that a person's judgment still matters at the
+boundary, even though the AI handled many clear cases well.
+
+The category hypothesis was inconclusive: the pooled Business/Sci-Tech
+disagreement rate was 17.57% versus 5.66% for Sports, a difference of 11.91
+percentage points, but the 95% interval ran from −0.06 to +22.77 and included
+zero. The study therefore does not establish that the hypothesised category
+difference exists in the wider benchmark pool. It also does not measure time
+saved, editor workload, or downstream publishing quality.
+
+Human review remains necessary where categories overlap, where the cost of a
+wrong section is high, and where accountability for the published choice
+matters. The evidence supports a workflow of AI suggestion plus human
+confirmation, with explicit uncertainty or exception flags; it does not support
+replacing the editor.
+
+## 10. Limitations
+
+- **One annotator.** The human labels are one person's reference, not ground
+  truth; no inter-annotator agreement is available.
+- **One classifier configuration.** Only one model version, prompt, codebook and
+  classification run were analysed. No repeated model runs are available, so
+  model-side variability is not quantified.
+- **Benchmark scope.** The sample is a probability sample of the remaining AG
+  News test pool after 20 preparation exclusions; it is not a representative
+  sample of all news or of a newsroom's incoming feed.
+- **Retrospective review.** The 23/8/7 assessments were made after seeing both
+  labels. They are not independent adjudication and do not provide a revised
+  accuracy estimate.
+- **No measured time savings.** The project did not measure editing time,
+  workload, or the cost of reviewing suggestions.
+- **Approximate intervals.** Wilson and Newcombe intervals assume independent
+  observations and use no finite-population correction. No p-value or
+  multiple-comparison adjustment is reported.
+- **Dataset labels are not ground truth.** Original AG News labels have no
+  available annotation guidelines in this project and unknown reliability.
+- **Associational only.** The analysis describes agreement patterns in one
+  sample; it does not identify a causal effect of topic, text difficulty, or any
+  other factor.
+
+## 11. Transparent account of assistance and contributions
+
+- **Student.** The student set the project and analysis plan, completed the
+  initial preparation labels before feedback, manually classified all 200
+  evaluation texts with confidence and uncertainty reasons before seeing AI or
+  dataset labels, wrote the explanations and assessments in the 38-item review
+  workbook, and entered and executed the Excel verification formulas.
+- **ChatGPT.** Documented assistance covers the review of the 20 preparation
+  annotations and the codebook clarifications that followed, and the Excel
+  verification formulas supplied to the student. The student reports that
+  ChatGPT also inspected the uploaded Excel workbook and confirmed the 200
+  formulas and their saved results. No model versions, settings or verbatim
+  logs are available for the preparation assistance, so no stronger claim is
+  made.
+- **OpenCode analysis agent.** The OpenCode agent implemented the saved analysis
+  scripts, reconciliation, original-label comparison and documentation at the
+  student's request. It is not the classifier and did not produce the human
+  labels.
+- **Classifier model.** `gemini-3.5-flash-lite` produced the AI labels through
+  the API protocol described in section 2. It is distinct from both ChatGPT and
+  the OpenCode analysis agent.
+
+## 12. Files and navigation
+
+- Plan and rules: `plan.md`, `AGENTS.md`, `codebook.md`, `data/README.md`
+- Primary results: `results/agent_run/`, `results/workflow_run/`
+- Reconciliation: `results/run_comparison.md`
+- Qualitative review: `results/disagreement_review_completed.xlsx`,
+  `results/qualitative_review_summary.md`
+- Original-label comparison: `results/original_label_comparison.md`
+- Student Excel check: `results/student_excel_verification.md`
+- Mistakes log: `mistakes.md`
+- Delivery checklist: `results/final_delivery_checklist.md`
+- Reproduction instructions: `README.md`

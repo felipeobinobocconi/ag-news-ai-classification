@@ -1,0 +1,22 @@
+{
+  "parse_method": "no_label_found",
+  "final_answer": null,
+  "label": null,
+  "session_ids": [
+    "ses_e2abc1cc1ffeHXjict1a3GcWey",
+    "ses_e2abc1cc1ffeHXjict1a3GcWey",
+    "ses_e2abc1cc1ffeHXjict1a3GcWey"
+  ],
+  "tool_keys_seen": [],
+  "nonempty_tool_structures": 0,
+  "model_values_seen": [],
+  "json_parse_ok": true,
+  "error_type": "provider.free-limit",
+  "error_message": "Free usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.",
+  "retry_after_ms": 35041000,
+  "returncode": 1,
+  "timed_out": false,
+  "model_requested": "opencode/glm-5.3-flash-free",
+  "cli_version": "opencode v2.2.5",
+  "model_internal_version": "not available"
+}

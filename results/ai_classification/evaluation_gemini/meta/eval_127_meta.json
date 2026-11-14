@@ -1,0 +1,33 @@
+{
+  "item_id": "eval_127",
+  "attempts": 1,
+  "final": {
+    "label": "3",
+    "finish_reason": "STOP",
+    "model_version": "gemini-3.5-flash-lite",
+    "usage": {
+      "promptTokenCount": 2302,
+      "candidatesTokenCount": 4,
+      "totalTokenCount": 2306,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2302
+        }
+      ],
+      "serviceTier": "standard"
+    },
+    "attempts": 1,
+    "first_success_ts": "2026-11-14T12:57:38Z"
+  },
+  "settings": {
+    "model": "gemini-3.5-flash-lite",
+    "temperature": 0.0,
+    "maxOutputTokens": 1024,
+    "candidateCount": 1,
+    "api_version": "v1beta",
+    "single_turn": true,
+    "tools_enabled": false,
+    "history": false
+  }
+}

@@ -1,0 +1,9 @@
+# Local secrets (created 2026-11-14)
+.env
+.env.*
+
+# Python virtual environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/

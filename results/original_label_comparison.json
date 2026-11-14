@@ -1,0 +1,94 @@
+{
+  "script": "src/21_original_label_comparison.py",
+  "inputs": {
+    "raw": "data/raw/test-00000-of-00001.parquet",
+    "manifest": "data/derived/evaluation_manifest.csv",
+    "human": "data/derived/evaluation_200_labelled.xlsx",
+    "ai": "results/ai_classification/evaluation_gemini/ai_classifications.csv"
+  },
+  "checks": {
+    "n": 200,
+    "unique_ids": 200,
+    "unique_positions": 200,
+    "text_mismatches": 0,
+    "dataset_label_counts": {
+      "World": 53,
+      "Sports": 53,
+      "Business": 45,
+      "Sci/Tech": 49
+    }
+  },
+  "human_vs_dataset": {
+    "matches": 147,
+    "agreement_rate": 0.735,
+    "wilson_95": [
+      0.6698242380737758,
+      0.7913184585289088
+    ],
+    "confusion_human_by_dataset": [
+      [
+        48,
+        2,
+        15,
+        8
+      ],
+      [
+        1,
+        51,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        29,
+        22
+      ],
+      [
+        3,
+        0,
+        0,
+        19
+      ]
+    ]
+  },
+  "ai_vs_dataset": {
+    "matches": 164,
+    "agreement_rate": 0.82,
+    "wilson_95": [
+      0.7608852497127511,
+      0.8670537414057983
+    ],
+    "confusion_ai_by_dataset": [
+      [
+        42,
+        1,
+        7,
+        4
+      ],
+      [
+        2,
+        51,
+        0,
+        0
+      ],
+      [
+        6,
+        1,
+        37,
+        11
+      ],
+      [
+        3,
+        0,
+        1,
+        34
+      ]
+    ]
+  },
+  "primary_human_vs_ai_context": {
+    "matches": 162,
+    "agreement_rate": 0.81
+  },
+  "note": "Original dataset labels are another reference of unknown reliability, not unquestionable ground truth. These are secondary comparisons and do not change the primary human-AI result."
+}

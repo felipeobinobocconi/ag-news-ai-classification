@@ -1,0 +1,5 @@
+human_label,human_category,ai_0,ai_1,ai_2,ai_3,total_human,disagreements
+0,World,51,3,14,5,73,22
+1,Sports,1,50,2,0,53,3
+2,Business,2,0,39,11,52,13
+3,Sci/Tech,0,0,0,22,22,0

@@ -1,0 +1,42 @@
+{
+  "script": "src/11_agreement_overall.py",
+  "inputs": {
+    "human": "data\\derived\\evaluation_200_labelled.xlsx",
+    "ai": "results\\ai_classification\\evaluation_gemini\\ai_classifications.csv"
+  },
+  "hash_checks": [
+    {
+      "file": "codebook.md",
+      "note": "results\\codebook_freeze_note.md",
+      "expected": "9EB79D7BD0EDBDA2E9D856B68F0A6A72E97061F463652C58BD04056FC6148A7E",
+      "actual": "9EB79D7BD0EDBDA2E9D856B68F0A6A72E97061F463652C58BD04056FC6148A7E",
+      "match": true
+    },
+    {
+      "file": "data\\derived\\evaluation_200_labelled.xlsx",
+      "note": "results\\manual_labels_freeze_note.md",
+      "expected": "D71C12E8FBD7E070698413FCB341F162665CB0101A5539A454D25CB49203948A",
+      "actual": "D71C12E8FBD7E070698413FCB341F162665CB0101A5539A454D25CB49203948A",
+      "match": true
+    },
+    {
+      "file": "results\\ai_classification\\evaluation_gemini\\ai_classifications.csv",
+      "note": "results\\ai_classification\\evaluation_gemini\\classification_freeze_note.md",
+      "expected": "760633BD862E1902772A93B02DEE3CFF1492295451BAED3A794F215C3FC78AFB",
+      "actual": "760633BD862E1902772A93B02DEE3CFF1492295451BAED3A794F215C3FC78AFB",
+      "match": true
+    }
+  ],
+  "items": 200,
+  "agree": 162,
+  "overall_agreement": 0.81,
+  "matrix_total": 200,
+  "matrix_diagonal": 162,
+  "label_order": [
+    "World",
+    "Sports",
+    "Business",
+    "Sci/Tech"
+  ],
+  "note": "Agreement with one human reference, not accuracy against unquestionable ground truth."
+}

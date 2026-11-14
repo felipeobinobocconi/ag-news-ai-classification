@@ -1,0 +1,4 @@
+{
+  "outcome": "quota_blocked",
+  "detail": "provider.free-limit; retry_after_ms=41710000"
+}

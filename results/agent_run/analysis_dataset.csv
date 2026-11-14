@@ -1,0 +1,201 @@
+item_id,human_label,human_category,human_confidence,ai_label,ai_category,human_group,disagreement
+eval_001,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_002,1,Sports,confident,1,Sports,Sports,0
+eval_003,0,World,confident,3,Sci/Tech,World (not in comparison),1
+eval_004,2,Business,uncertain,2,Business,Business/Sci-Tech pooled,0
+eval_005,1,Sports,confident,1,Sports,Sports,0
+eval_006,2,Business,uncertain,0,World,Business/Sci-Tech pooled,1
+eval_007,2,Business,uncertain,0,World,Business/Sci-Tech pooled,1
+eval_008,1,Sports,confident,1,Sports,Sports,0
+eval_009,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_010,1,Sports,confident,1,Sports,Sports,0
+eval_011,0,World,confident,0,World,World (not in comparison),0
+eval_012,0,World,confident,2,Business,World (not in comparison),1
+eval_013,1,Sports,confident,1,Sports,Sports,0
+eval_014,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_015,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_016,2,Business,confident,3,Sci/Tech,Business/Sci-Tech pooled,1
+eval_017,1,Sports,confident,1,Sports,Sports,0
+eval_018,0,World,confident,0,World,World (not in comparison),0
+eval_019,1,Sports,confident,1,Sports,Sports,0
+eval_020,2,Business,uncertain,2,Business,Business/Sci-Tech pooled,0
+eval_021,0,World,uncertain,3,Sci/Tech,World (not in comparison),1
+eval_022,0,World,confident,0,World,World (not in comparison),0
+eval_023,1,Sports,confident,1,Sports,Sports,0
+eval_024,0,World,confident,0,World,World (not in comparison),0
+eval_025,1,Sports,uncertain,0,World,Sports,1
+eval_026,0,World,confident,0,World,World (not in comparison),0
+eval_027,0,World,confident,0,World,World (not in comparison),0
+eval_028,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_029,0,World,confident,0,World,World (not in comparison),0
+eval_030,2,Business,uncertain,3,Sci/Tech,Business/Sci-Tech pooled,1
+eval_031,2,Business,uncertain,2,Business,Business/Sci-Tech pooled,0
+eval_032,1,Sports,confident,1,Sports,Sports,0
+eval_033,2,Business,uncertain,3,Sci/Tech,Business/Sci-Tech pooled,1
+eval_034,0,World,confident,0,World,World (not in comparison),0
+eval_035,1,Sports,confident,1,Sports,Sports,0
+eval_036,3,Sci/Tech,uncertain,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_037,1,Sports,confident,1,Sports,Sports,0
+eval_038,0,World,confident,0,World,World (not in comparison),0
+eval_039,2,Business,uncertain,3,Sci/Tech,Business/Sci-Tech pooled,1
+eval_040,3,Sci/Tech,confident,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_041,0,World,confident,0,World,World (not in comparison),0
+eval_042,1,Sports,confident,1,Sports,Sports,0
+eval_043,0,World,uncertain,1,Sports,World (not in comparison),1
+eval_044,0,World,uncertain,0,World,World (not in comparison),0
+eval_045,1,Sports,confident,1,Sports,Sports,0
+eval_046,0,World,confident,0,World,World (not in comparison),0
+eval_047,2,Business,uncertain,2,Business,Business/Sci-Tech pooled,0
+eval_048,1,Sports,confident,1,Sports,Sports,0
+eval_049,0,World,confident,2,Business,World (not in comparison),1
+eval_050,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_051,1,Sports,uncertain,2,Business,Sports,1
+eval_052,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_053,1,Sports,confident,1,Sports,Sports,0
+eval_054,3,Sci/Tech,uncertain,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_055,0,World,confident,0,World,World (not in comparison),0
+eval_056,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_057,0,World,confident,3,Sci/Tech,World (not in comparison),1
+eval_058,0,World,uncertain,0,World,World (not in comparison),0
+eval_059,3,Sci/Tech,confident,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_060,1,Sports,confident,1,Sports,Sports,0
+eval_061,1,Sports,confident,1,Sports,Sports,0
+eval_062,3,Sci/Tech,confident,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_063,0,World,confident,2,Business,World (not in comparison),1
+eval_064,1,Sports,confident,1,Sports,Sports,0
+eval_065,2,Business,uncertain,3,Sci/Tech,Business/Sci-Tech pooled,1
+eval_066,1,Sports,confident,1,Sports,Sports,0
+eval_067,3,Sci/Tech,uncertain,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_068,3,Sci/Tech,confident,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_069,0,World,confident,1,Sports,World (not in comparison),1
+eval_070,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_071,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_072,1,Sports,confident,1,Sports,Sports,0
+eval_073,0,World,confident,2,Business,World (not in comparison),1
+eval_074,1,Sports,confident,1,Sports,Sports,0
+eval_075,0,World,uncertain,2,Business,World (not in comparison),1
+eval_076,0,World,uncertain,0,World,World (not in comparison),0
+eval_077,0,World,confident,0,World,World (not in comparison),0
+eval_078,3,Sci/Tech,uncertain,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_079,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_080,0,World,confident,0,World,World (not in comparison),0
+eval_081,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_082,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_083,3,Sci/Tech,uncertain,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_084,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_085,0,World,confident,0,World,World (not in comparison),0
+eval_086,3,Sci/Tech,confident,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_087,0,World,confident,0,World,World (not in comparison),0
+eval_088,0,World,confident,0,World,World (not in comparison),0
+eval_089,3,Sci/Tech,confident,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_090,0,World,confident,0,World,World (not in comparison),0
+eval_091,1,Sports,confident,1,Sports,Sports,0
+eval_092,0,World,confident,0,World,World (not in comparison),0
+eval_093,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_094,0,World,confident,0,World,World (not in comparison),0
+eval_095,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_096,3,Sci/Tech,uncertain,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_097,3,Sci/Tech,confident,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_098,1,Sports,uncertain,1,Sports,Sports,0
+eval_099,1,Sports,confident,1,Sports,Sports,0
+eval_100,1,Sports,confident,1,Sports,Sports,0
+eval_101,0,World,uncertain,2,Business,World (not in comparison),1
+eval_102,2,Business,confident,3,Sci/Tech,Business/Sci-Tech pooled,1
+eval_103,3,Sci/Tech,confident,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_104,1,Sports,confident,1,Sports,Sports,0
+eval_105,0,World,confident,0,World,World (not in comparison),0
+eval_106,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_107,0,World,uncertain,3,Sci/Tech,World (not in comparison),1
+eval_108,0,World,confident,0,World,World (not in comparison),0
+eval_109,3,Sci/Tech,confident,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_110,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_111,2,Business,confident,3,Sci/Tech,Business/Sci-Tech pooled,1
+eval_112,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_113,1,Sports,confident,1,Sports,Sports,0
+eval_114,1,Sports,uncertain,1,Sports,Sports,0
+eval_115,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_116,1,Sports,confident,1,Sports,Sports,0
+eval_117,1,Sports,confident,1,Sports,Sports,0
+eval_118,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_119,0,World,confident,0,World,World (not in comparison),0
+eval_120,0,World,uncertain,2,Business,World (not in comparison),1
+eval_121,2,Business,uncertain,3,Sci/Tech,Business/Sci-Tech pooled,1
+eval_122,3,Sci/Tech,confident,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_123,0,World,confident,0,World,World (not in comparison),0
+eval_124,1,Sports,confident,1,Sports,Sports,0
+eval_125,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_126,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_127,2,Business,uncertain,3,Sci/Tech,Business/Sci-Tech pooled,1
+eval_128,1,Sports,confident,1,Sports,Sports,0
+eval_129,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_130,1,Sports,confident,1,Sports,Sports,0
+eval_131,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_132,1,Sports,confident,1,Sports,Sports,0
+eval_133,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_134,3,Sci/Tech,uncertain,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_135,0,World,confident,0,World,World (not in comparison),0
+eval_136,1,Sports,confident,1,Sports,Sports,0
+eval_137,0,World,confident,0,World,World (not in comparison),0
+eval_138,3,Sci/Tech,uncertain,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_139,2,Business,uncertain,2,Business,Business/Sci-Tech pooled,0
+eval_140,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_141,0,World,uncertain,0,World,World (not in comparison),0
+eval_142,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_143,1,Sports,confident,2,Business,Sports,1
+eval_144,3,Sci/Tech,uncertain,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_145,0,World,confident,0,World,World (not in comparison),0
+eval_146,0,World,confident,0,World,World (not in comparison),0
+eval_147,1,Sports,confident,1,Sports,Sports,0
+eval_148,0,World,uncertain,2,Business,World (not in comparison),1
+eval_149,3,Sci/Tech,uncertain,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_150,1,Sports,confident,1,Sports,Sports,0
+eval_151,3,Sci/Tech,uncertain,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_152,0,World,uncertain,0,World,World (not in comparison),0
+eval_153,0,World,confident,0,World,World (not in comparison),0
+eval_154,2,Business,confident,3,Sci/Tech,Business/Sci-Tech pooled,1
+eval_155,0,World,confident,0,World,World (not in comparison),0
+eval_156,0,World,confident,2,Business,World (not in comparison),1
+eval_157,0,World,uncertain,3,Sci/Tech,World (not in comparison),1
+eval_158,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_159,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_160,0,World,uncertain,0,World,World (not in comparison),0
+eval_161,0,World,confident,2,Business,World (not in comparison),1
+eval_162,1,Sports,confident,1,Sports,Sports,0
+eval_163,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_164,2,Business,uncertain,2,Business,Business/Sci-Tech pooled,0
+eval_165,1,Sports,confident,1,Sports,Sports,0
+eval_166,1,Sports,confident,1,Sports,Sports,0
+eval_167,0,World,confident,0,World,World (not in comparison),0
+eval_168,0,World,confident,2,Business,World (not in comparison),1
+eval_169,1,Sports,confident,1,Sports,Sports,0
+eval_170,0,World,confident,0,World,World (not in comparison),0
+eval_171,1,Sports,confident,1,Sports,Sports,0
+eval_172,1,Sports,confident,1,Sports,Sports,0
+eval_173,0,World,confident,0,World,World (not in comparison),0
+eval_174,2,Business,confident,3,Sci/Tech,Business/Sci-Tech pooled,1
+eval_175,1,Sports,confident,1,Sports,Sports,0
+eval_176,0,World,confident,0,World,World (not in comparison),0
+eval_177,0,World,confident,2,Business,World (not in comparison),1
+eval_178,0,World,confident,0,World,World (not in comparison),0
+eval_179,1,Sports,confident,1,Sports,Sports,0
+eval_180,0,World,uncertain,0,World,World (not in comparison),0
+eval_181,0,World,confident,2,Business,World (not in comparison),1
+eval_182,1,Sports,confident,1,Sports,Sports,0
+eval_183,0,World,confident,0,World,World (not in comparison),0
+eval_184,0,World,confident,1,Sports,World (not in comparison),1
+eval_185,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_186,0,World,uncertain,2,Business,World (not in comparison),1
+eval_187,1,Sports,confident,1,Sports,Sports,0
+eval_188,0,World,confident,0,World,World (not in comparison),0
+eval_189,0,World,confident,0,World,World (not in comparison),0
+eval_190,0,World,confident,0,World,World (not in comparison),0
+eval_191,1,Sports,confident,1,Sports,Sports,0
+eval_192,2,Business,confident,2,Business,Business/Sci-Tech pooled,0
+eval_193,1,Sports,confident,1,Sports,Sports,0
+eval_194,0,World,confident,0,World,World (not in comparison),0
+eval_195,1,Sports,confident,1,Sports,Sports,0
+eval_196,0,World,confident,0,World,World (not in comparison),0
+eval_197,0,World,confident,0,World,World (not in comparison),0
+eval_198,3,Sci/Tech,uncertain,3,Sci/Tech,Business/Sci-Tech pooled,0
+eval_199,0,World,confident,0,World,World (not in comparison),0
+eval_200,0,World,confident,0,World,World (not in comparison),0

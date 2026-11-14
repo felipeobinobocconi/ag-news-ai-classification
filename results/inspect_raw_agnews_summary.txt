@@ -1,0 +1,28 @@
+file: data\raw\test-00000-of-00001.parquet
+shape (rows, cols): (7600, 2)
+columns and dtypes:
+  text: str
+  label: int64
+
+missing values per column (pandas isna):
+  text: 0
+  label: 0
+blank texts (empty or whitespace-only): 0
+distinct label values (sorted):
+  [0, 1, 2, 3]
+rows per label (value_counts, no reshuffling):
+  label=0: 1900 rows
+  label=1: 1900 rows
+  label=2: 1900 rows
+  label=3: 1900 rows
+exact duplicate texts (copies beyond first occurrence): 0
+fully duplicated rows (all columns identical): 0
+NOTE: duplicates were counted but NOT removed (AGENTS.md rule 1/2).
+total rows after inspection: same as start, no rows dropped
+
+sha256 before read: 71DE87EC66BC5737752A2502204DFA6D7FE9856ADE3EA444DC6317789A4F13FB
+sha256 after read:  71DE87EC66BC5737752A2502204DFA6D7FE9856ADE3EA444DC6317789A4F13FB
+raw file modified during inspection: False
+
+mode of computation: pandas/pyarrow parquet read; all counts computed from the file.
+assumption: columns identified by name ('text', 'label'); no type casting applied to counts.

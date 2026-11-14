@@ -1,0 +1,4006 @@
+{
+  "started_at": "2026-11-14T12:35:58Z",
+  "updated_at": "2026-11-14T13:03:44Z",
+  "items": {
+    "eval_001": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2339,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2343,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2339
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:35:58Z"
+    },
+    "eval_002": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2300,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2304,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2300
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:36:02Z"
+    },
+    "eval_003": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2284,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2288,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2284
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:36:07Z"
+    },
+    "eval_004": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2313,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2317,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2313
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:36:11Z"
+    },
+    "eval_005": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2314,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2318,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2314
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:36:16Z"
+    },
+    "eval_006": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2294,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2298,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2294
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:36:20Z"
+    },
+    "eval_007": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2306,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2310,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2306
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:36:25Z"
+    },
+    "eval_008": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2327,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2331,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2327
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:36:29Z"
+    },
+    "eval_009": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2338,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2342,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2338
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:36:34Z"
+    },
+    "eval_010": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2307,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2311,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2307
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:36:38Z"
+    },
+    "eval_011": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2332,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2336,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2332
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:36:43Z"
+    },
+    "eval_012": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2300,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2304,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2300
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:36:47Z"
+    },
+    "eval_013": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2337,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2341,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2337
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:36:52Z"
+    },
+    "eval_014": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2296,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2300,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2296
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:36:56Z"
+    },
+    "eval_015": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2302,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2306,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2302
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:37:01Z"
+    },
+    "eval_016": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2298,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2302,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2298
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:37:05Z"
+    },
+    "eval_017": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2291,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2295,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2291
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:37:10Z"
+    },
+    "eval_018": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2318,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2322,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2318
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:37:14Z"
+    },
+    "eval_019": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2319,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2323,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2319
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:37:19Z"
+    },
+    "eval_020": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2314,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2318,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2314
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:37:23Z"
+    },
+    "eval_021": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2314,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2318,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2314
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:37:28Z"
+    },
+    "eval_022": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2413,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2417,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2413
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:37:32Z"
+    },
+    "eval_023": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2320,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2324,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2320
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:37:37Z"
+    },
+    "eval_024": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2314,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2318,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2314
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:37:41Z"
+    },
+    "eval_025": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2305,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2309,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2305
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:37:46Z"
+    },
+    "eval_026": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2308,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2312,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2308
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:37:50Z"
+    },
+    "eval_027": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2318,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2322,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2318
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:37:55Z"
+    },
+    "eval_028": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2332,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2336,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2332
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:37:59Z"
+    },
+    "eval_029": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2287,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2291,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2287
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:38:04Z"
+    },
+    "eval_030": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2301,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2305,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2301
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:38:08Z"
+    },
+    "eval_031": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2304,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2308,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2304
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:38:13Z"
+    },
+    "eval_032": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2301,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2305,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2301
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:38:17Z"
+    },
+    "eval_033": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2307,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2311,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2307
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:38:22Z"
+    },
+    "eval_034": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2319,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2323,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2319
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:38:26Z"
+    },
+    "eval_035": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2297,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2301,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2297
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:38:31Z"
+    },
+    "eval_036": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2305,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2309,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2305
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:38:35Z"
+    },
+    "eval_037": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2307,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2311,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2307
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:38:40Z"
+    },
+    "eval_038": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2307,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2311,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2307
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:38:44Z"
+    },
+    "eval_039": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2280,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2284,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2280
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:38:49Z"
+    },
+    "eval_040": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2289,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2293,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2289
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:38:53Z"
+    },
+    "eval_041": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2315,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2319,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2315
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:38:58Z"
+    },
+    "eval_042": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2303,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2307,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2303
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:39:02Z"
+    },
+    "eval_043": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2328,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2332,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2328
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:39:07Z"
+    },
+    "eval_044": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2308,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2312,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2308
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:39:11Z"
+    },
+    "eval_045": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2306,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2310,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2306
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:39:16Z"
+    },
+    "eval_046": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2301,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2305,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2301
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:39:20Z"
+    },
+    "eval_047": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2312,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2316,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2312
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:39:25Z"
+    },
+    "eval_048": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2292,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2296,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2292
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:39:29Z"
+    },
+    "eval_049": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2317,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2321,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2317
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:39:34Z"
+    },
+    "eval_050": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2300,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2304,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2300
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:39:38Z"
+    },
+    "eval_051": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2295,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2299,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2295
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:39:43Z"
+    },
+    "eval_052": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2425,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2429,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2425
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:39:47Z"
+    },
+    "eval_053": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2310,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2314,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2310
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:39:52Z"
+    },
+    "eval_054": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2389,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2393,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2389
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:39:56Z"
+    },
+    "eval_055": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2312,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2316,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2312
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:40:01Z"
+    },
+    "eval_056": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2302,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2306,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2302
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:40:05Z"
+    },
+    "eval_057": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2294,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2298,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2294
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:40:10Z"
+    },
+    "eval_058": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2325,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2329,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2325
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:40:14Z"
+    },
+    "eval_059": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2303,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2307,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2303
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:40:19Z"
+    },
+    "eval_060": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2302,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2306,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2302
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:40:23Z"
+    },
+    "eval_061": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2304,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2308,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2304
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:40:28Z"
+    },
+    "eval_062": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2276,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2280,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2276
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:40:32Z"
+    },
+    "eval_063": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2308,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2312,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2308
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:40:37Z"
+    },
+    "eval_064": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2420,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2424,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2420
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:40:41Z"
+    },
+    "eval_065": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2285,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2289,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2285
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:40:46Z"
+    },
+    "eval_066": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2333,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2337,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2333
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:40:50Z"
+    },
+    "eval_067": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2317,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2321,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2317
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:40:55Z"
+    },
+    "eval_068": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2336,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2340,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2336
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:40:59Z"
+    },
+    "eval_069": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2305,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2309,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2305
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:41:04Z"
+    },
+    "eval_070": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2295,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2299,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2295
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:41:08Z"
+    },
+    "eval_071": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2302,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2306,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2302
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:41:13Z"
+    },
+    "eval_072": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2308,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2312,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2308
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:41:17Z"
+    },
+    "eval_073": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2322,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2326,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2322
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:41:22Z"
+    },
+    "eval_074": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2310,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2314,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2310
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:41:26Z"
+    },
+    "eval_075": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2287,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2291,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2287
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:41:31Z"
+    },
+    "eval_076": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2301,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2305,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2301
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:41:35Z"
+    },
+    "eval_077": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2298,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2302,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2298
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:41:40Z"
+    },
+    "eval_078": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2295,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2299,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2295
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:41:44Z"
+    },
+    "eval_079": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2304,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2308,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2304
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:41:49Z"
+    },
+    "eval_080": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2309,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2313,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2309
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:41:53Z"
+    },
+    "eval_081": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2298,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2302,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2298
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:41:58Z"
+    },
+    "eval_082": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2296,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2300,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2296
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:42:02Z"
+    },
+    "eval_083": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2303,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2307,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2303
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:42:07Z"
+    },
+    "eval_084": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2308,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2312,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2308
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:54:25Z"
+    },
+    "eval_085": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2284,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2288,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2284
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:54:29Z"
+    },
+    "eval_086": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2316,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2320,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2316
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:54:34Z"
+    },
+    "eval_087": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2336,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2340,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2336
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:54:38Z"
+    },
+    "eval_088": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2300,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2304,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2300
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:54:43Z"
+    },
+    "eval_089": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2301,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2305,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2301
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:54:47Z"
+    },
+    "eval_090": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2305,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2309,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2305
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:54:52Z"
+    },
+    "eval_091": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2305,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2309,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2305
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:54:56Z"
+    },
+    "eval_092": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2302,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2306,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2302
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:55:01Z"
+    },
+    "eval_093": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2329,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2333,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2329
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:55:05Z"
+    },
+    "eval_094": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2283,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2287,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2283
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:55:10Z"
+    },
+    "eval_095": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2312,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2316,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2312
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:55:14Z"
+    },
+    "eval_096": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2298,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2302,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2298
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:55:19Z"
+    },
+    "eval_097": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2295,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2299,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2295
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:55:23Z"
+    },
+    "eval_098": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2304,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2308,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2304
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:55:28Z"
+    },
+    "eval_099": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2312,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2316,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2312
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:55:32Z"
+    },
+    "eval_100": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2306,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2310,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2306
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:55:37Z"
+    },
+    "eval_101": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2293,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2297,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2293
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:55:41Z"
+    },
+    "eval_102": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2302,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2306,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2302
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:55:46Z"
+    },
+    "eval_103": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2308,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2312,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2308
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:55:50Z"
+    },
+    "eval_104": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2310,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2314,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2310
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:55:55Z"
+    },
+    "eval_105": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2291,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2295,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2291
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:55:59Z"
+    },
+    "eval_106": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2373,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2377,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2373
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:56:04Z"
+    },
+    "eval_107": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2329,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2333,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2329
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:56:08Z"
+    },
+    "eval_108": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2301,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2305,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2301
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:56:13Z"
+    },
+    "eval_109": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2288,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2292,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2288
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:56:17Z"
+    },
+    "eval_110": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2307,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2311,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2307
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:56:22Z"
+    },
+    "eval_111": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2301,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2305,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2301
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:56:26Z"
+    },
+    "eval_112": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2364,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2368,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2364
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:56:31Z"
+    },
+    "eval_113": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2315,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2319,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2315
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:56:35Z"
+    },
+    "eval_114": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2299,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2303,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2299
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:56:40Z"
+    },
+    "eval_115": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2304,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2308,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2304
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:56:44Z"
+    },
+    "eval_116": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2331,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2335,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2331
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:56:49Z"
+    },
+    "eval_117": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2305,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2309,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2305
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:56:53Z"
+    },
+    "eval_118": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2321,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2325,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2321
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:56:58Z"
+    },
+    "eval_119": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2286,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2290,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2286
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:57:02Z"
+    },
+    "eval_120": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2332,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2336,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2332
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:57:07Z"
+    },
+    "eval_121": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2308,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2312,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2308
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:57:11Z"
+    },
+    "eval_122": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2296,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2300,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2296
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:57:16Z"
+    },
+    "eval_123": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2311,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2315,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2311
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:57:20Z"
+    },
+    "eval_124": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2304,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2308,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2304
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:57:25Z"
+    },
+    "eval_125": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2325,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2329,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2325
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:57:29Z"
+    },
+    "eval_126": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2297,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2301,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2297
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:57:34Z"
+    },
+    "eval_127": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2302,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2306,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2302
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:57:38Z"
+    },
+    "eval_128": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2296,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2300,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2296
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:57:43Z"
+    },
+    "eval_129": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2314,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2318,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2314
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:57:47Z"
+    },
+    "eval_130": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2303,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2307,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2303
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:57:52Z"
+    },
+    "eval_131": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2319,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2323,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2319
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:57:56Z"
+    },
+    "eval_132": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2311,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2315,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2311
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:58:01Z"
+    },
+    "eval_133": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2296,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2300,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2296
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:58:05Z"
+    },
+    "eval_134": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2298,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2302,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2298
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:58:10Z"
+    },
+    "eval_135": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2302,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2306,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2302
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:58:14Z"
+    },
+    "eval_136": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2288,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2292,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2288
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:58:19Z"
+    },
+    "eval_137": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2301,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2305,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2301
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 2,
+      "first_success_ts": "2026-11-14T12:58:59Z"
+    },
+    "eval_138": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2307,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2311,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2307
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:59:04Z"
+    },
+    "eval_139": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2312,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2316,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2312
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:59:08Z"
+    },
+    "eval_140": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2374,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2378,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2374
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:59:13Z"
+    },
+    "eval_141": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2303,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2307,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2303
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:59:17Z"
+    },
+    "eval_142": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2290,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2294,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2290
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:59:22Z"
+    },
+    "eval_143": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2303,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2307,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2303
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:59:26Z"
+    },
+    "eval_144": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2295,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2299,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2295
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:59:31Z"
+    },
+    "eval_145": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2307,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2311,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2307
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:59:35Z"
+    },
+    "eval_146": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2312,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2316,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2312
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:59:40Z"
+    },
+    "eval_147": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2321,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2325,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2321
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:59:44Z"
+    },
+    "eval_148": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2314,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2318,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2314
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:59:49Z"
+    },
+    "eval_149": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2292,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2296,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2292
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:59:53Z"
+    },
+    "eval_150": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2335,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2339,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2335
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T12:59:58Z"
+    },
+    "eval_151": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2303,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2307,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2303
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:00:02Z"
+    },
+    "eval_152": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2285,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2289,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2285
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:00:07Z"
+    },
+    "eval_153": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2308,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2312,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2308
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:00:11Z"
+    },
+    "eval_154": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2335,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2339,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2335
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:00:16Z"
+    },
+    "eval_155": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2310,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2314,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2310
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:00:20Z"
+    },
+    "eval_156": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2298,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2302,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2298
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:00:25Z"
+    },
+    "eval_157": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2309,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2313,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2309
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:00:29Z"
+    },
+    "eval_158": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2296,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2300,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2296
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:00:34Z"
+    },
+    "eval_159": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2312,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2316,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2312
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:00:38Z"
+    },
+    "eval_160": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2287,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2291,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2287
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:00:43Z"
+    },
+    "eval_161": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2312,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2316,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2312
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:00:47Z"
+    },
+    "eval_162": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2304,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2308,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2304
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:00:52Z"
+    },
+    "eval_163": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2361,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2365,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2361
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:00:56Z"
+    },
+    "eval_164": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2307,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2311,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2307
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:01:01Z"
+    },
+    "eval_165": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2305,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2309,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2305
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:01:05Z"
+    },
+    "eval_166": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2315,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2319,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2315
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:01:10Z"
+    },
+    "eval_167": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2325,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2329,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2325
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:01:14Z"
+    },
+    "eval_168": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2288,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2292,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2288
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:01:19Z"
+    },
+    "eval_169": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2317,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2321,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2317
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:01:23Z"
+    },
+    "eval_170": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2299,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2303,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2299
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:01:28Z"
+    },
+    "eval_171": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2305,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2309,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2305
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:01:32Z"
+    },
+    "eval_172": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2294,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2298,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2294
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:01:37Z"
+    },
+    "eval_173": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2332,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2336,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2332
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:01:41Z"
+    },
+    "eval_174": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2319,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2323,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2319
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:01:46Z"
+    },
+    "eval_175": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2311,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2315,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2311
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:01:50Z"
+    },
+    "eval_176": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2310,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2314,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2310
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:01:55Z"
+    },
+    "eval_177": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2304,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2308,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2304
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:01:59Z"
+    },
+    "eval_178": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2296,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2300,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2296
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:02:04Z"
+    },
+    "eval_179": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2315,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2319,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2315
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:02:08Z"
+    },
+    "eval_180": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2298,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2302,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2298
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:02:13Z"
+    },
+    "eval_181": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2320,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2324,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2320
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:02:17Z"
+    },
+    "eval_182": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2309,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2313,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2309
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:02:22Z"
+    },
+    "eval_183": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2302,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2306,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2302
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:02:26Z"
+    },
+    "eval_184": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2301,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2305,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2301
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:02:31Z"
+    },
+    "eval_185": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2333,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2337,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2333
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:02:35Z"
+    },
+    "eval_186": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2305,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2309,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2305
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:02:40Z"
+    },
+    "eval_187": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2322,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2326,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2322
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:02:44Z"
+    },
+    "eval_188": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2284,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2288,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2284
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:02:49Z"
+    },
+    "eval_189": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2296,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2300,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2296
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:02:53Z"
+    },
+    "eval_190": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2297,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2301,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2297
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:02:58Z"
+    },
+    "eval_191": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2313,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2317,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2313
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:03:02Z"
+    },
+    "eval_192": {
+      "status": "ok",
+      "label": "2",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2316,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2320,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2316
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:03:07Z"
+    },
+    "eval_193": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2289,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2293,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2289
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:03:11Z"
+    },
+    "eval_194": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2300,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2304,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2300
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:03:16Z"
+    },
+    "eval_195": {
+      "status": "ok",
+      "label": "1",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2355,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2359,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2355
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:03:20Z"
+    },
+    "eval_196": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2300,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2304,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2300
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:03:25Z"
+    },
+    "eval_197": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2320,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2324,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2320
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:03:29Z"
+    },
+    "eval_198": {
+      "status": "ok",
+      "label": "3",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2309,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2313,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2309
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:03:34Z"
+    },
+    "eval_199": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2329,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2333,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2329
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:03:38Z"
+    },
+    "eval_200": {
+      "status": "ok",
+      "label": "0",
+      "finish_reason": "STOP",
+      "model_version": "gemini-3.5-flash-lite",
+      "usage": {
+        "promptTokenCount": 2343,
+        "candidatesTokenCount": 4,
+        "totalTokenCount": 2347,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2343
+          }
+        ],
+        "serviceTier": "standard"
+      },
+      "attempts": 1,
+      "first_success_ts": "2026-11-14T13:03:43Z"
+    }
+  }
+}

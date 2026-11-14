@@ -1,0 +1,24 @@
+{
+  "parse_method": "no_label_found",
+  "final_answer": null,
+  "final_answer_source": null,
+  "label": null,
+  "session_ids": [
+    "ses_e25fb7fc4ffexdkMOCeAMWcBAE",
+    "ses_e25fb7fc4ffexdkMOCeAMWcBAE",
+    "ses_e25fb7fc4ffexdkMOCeAMWcBAE"
+  ],
+  "tool_keys_seen": [],
+  "nonempty_tool_structures": 0,
+  "model_values_seen": [],
+  "json_parse_ok": true,
+  "error_type": "provider.free-limit",
+  "error_message": "Free usage limit reached. Connect a provider or subscribe to OpenCode Go to keep going, or switch models.",
+  "retry_after_ms": 41710000,
+  "structured_text_candidates": [],
+  "returncode": 1,
+  "timed_out": false,
+  "model_requested": "opencode/deepseek-v4.1-flash-free",
+  "cli_version": "opencode v2.2.5",
+  "model_internal_version": "not available"
+}

@@ -1,0 +1,61 @@
+{
+  "script": "src/20_consolidate_review.py",
+  "input": "results/disagreement_review_completed.xlsx",
+  "reviewed": 38,
+  "expected_disagreements": 38,
+  "checks": {
+    "ids_exactly_match_frozen_disagreements": true,
+    "unique_reviewed_ids": 38,
+    "text_mismatches": 0,
+    "label_mismatches": 0,
+    "confidence_mismatches": 0,
+    "uncertainty_reason_mismatches": 0,
+    "blank_explanations": 0,
+    "blank_assessments": 0
+  },
+  "assessment_counts": {
+    "AI label better supported": 23,
+    "human label better supported": 8,
+    "both defensible": 7
+  },
+  "disagreement_pairs": {
+    "0->1": 3,
+    "0->2": 14,
+    "0->3": 5,
+    "1->0": 1,
+    "1->2": 2,
+    "2->0": 2,
+    "2->3": 11
+  },
+  "examples": [
+    {
+      "item_id": "eval_006",
+      "human_label": 2,
+      "ai_label": 0,
+      "assessment": "AI label better supported",
+      "explanation": "Actually the news is not very business related, it's about a marketing strategy that used irony to promote the city of Houston. Should be world because it's related to a city marketing strategy"
+    },
+    {
+      "item_id": "eval_030",
+      "human_label": 2,
+      "ai_label": 3,
+      "assessment": "human label better supported",
+      "explanation": "The focus of the news is a company introducing a new product, it doesn't focus much on explaining the technology behind it"
+    },
+    {
+      "item_id": "eval_016",
+      "human_label": 2,
+      "ai_label": 3,
+      "assessment": "both defensible",
+      "explanation": "It's arguable which is the focus of the news: highlight a new business partnership to improve cybersecurity, or the cybersecurity theme itself"
+    },
+    {
+      "item_id": "eval_181",
+      "human_label": 0,
+      "ai_label": 2,
+      "assessment": "AI label better supported",
+      "explanation": "The news focus on the economic impacts unemployment"
+    }
+  ],
+  "attribution": "Retrospective student judgments made after seeing both labels; not independent adjudication and not a revised accuracy measure."
+}

@@ -1,0 +1,39 @@
+AGENT RUN STEP 17 — independent verification
+run_utc: 2026-11-14T13:26:18.218914+00:00
+random seed fixed at 42 (no stochastic step)
+rebuilding the analysis dataset from the three authorised inputs
+rebuilt rows: 200; saved dataset rows: 200
+
+CHECK PASS: workbook hash still matches freeze note
+CHECK PASS: AI CSV hash still matches freeze note
+CHECK PASS: rebuilt dataset equals saved analysis dataset
+CHECK PASS: analysis dataset has 200 unique rows
+CHECK PASS: analysis dataset contains no news-text column
+CHECK PASS: all manifest IDs used exactly once
+CHECK PASS: saved agreement count matches recomputation
+CHECK PASS: saved agreement rate matches recomputation
+CHECK PASS: saved agreement Wilson interval matches recomputation
+CHECK PASS: confusion-matrix counts match recomputation
+CHECK PASS: confusion-matrix counts sum to 200
+CHECK PASS: confusion-matrix row totals match human-label counts
+CHECK PASS: row-percentage table matches recomputation
+CHECK PASS: saved group denominators match recomputation
+CHECK PASS: saved group disagreement counts match recomputation
+CHECK PASS: saved group rates match recomputation
+CHECK PASS: saved Wilson intervals match recomputation
+CHECK PASS: saved difference matches recomputation
+CHECK PASS: saved Newcombe interval matches recomputation
+CHECK PASS: Wilson intervals match statsmodels (group 1)
+CHECK PASS: Wilson intervals match statsmodels (group 2)
+CHECK PASS: Wilson interval matches statsmodels (overall agreement)
+CHECK PASS: Newcombe interval matches statsmodels-based rebuild
+CHECK PASS: per-category descriptive rates match recomputation
+CHECK PASS: all expected output files exist
+CHECK PASS: figure PNG is a readable image larger than 10 KB
+CHECK PASS: figure PDF is larger than 10 KB
+CHECK PASS: reports are non-empty
+
+recomputed: n=200; agreements=162; agreement=0.810000 (Wilson 0.749988-0.858328)
+recomputed: pooled 13/74=0.175676; sports 3/53=0.056604; difference=+11.9072 pp; Newcombe [-0.0648, +22.7674] pp
+all checks passed: YES
+files written: results\agent_run\verification_report.md; results\agent_run\verification_summary.json; results\agent_run\17_run_log.txt

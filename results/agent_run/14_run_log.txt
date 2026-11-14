@@ -1,0 +1,22 @@
+AGENT RUN STEP 14 — overall agreement and confusion matrix
+run_utc: 2026-11-14T13:24:14.731672+00:00
+random seed fixed at 42 (no stochastic step)
+input: results\agent_run\analysis_dataset.csv
+row count on read: 200
+no filter, merge or drop applied in this script
+agreements: 162/200; disagreements: 38/200; agreement rate: 0.810000
+confusion matrix (rows = human, columns = AI):
+  human \ AI     World    Sports  Business  Sci/Tech   total
+       World        51         3        14         5      73
+      Sports         1        50         2         0      53
+    Business         2         0        39        11      52
+    Sci/Tech         0         0         0        22      22
+    AI total        54        53        55        38     200
+  human 0 (World): n=73; agreements=51; rate=0.698630
+  human 1 (Sports): n=53; agreements=50; rate=0.943396
+  human 2 (Business): n=52; agreements=39; rate=0.750000
+  human 3 (Sci/Tech): n=22; agreements=22; rate=1.000000
+  human_confidence=confident: n=154; agreements=135; disagreement rate=0.123377
+  human_confidence=uncertain: n=46; agreements=27; disagreement rate=0.413043
+
+files written: results\agent_run\confusion_matrix_counts.csv; results\agent_run\confusion_matrix_row_pct.csv; results\agent_run\agreement_summary.json; results\agent_run\agreement_report.md; results\agent_run\14_run_log.txt
