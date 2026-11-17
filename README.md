@@ -23,6 +23,22 @@ downstream publishing quality.
 
 The full narrative is in [`final_report.md`](final_report.md).
 
+## Authorship and assistance
+
+The student reports personally classifying all 200 evaluation texts without
+consulting any AI for those classification decisions, before seeing model
+classifications or original dataset labels, and personally writing all 38
+retrospective review explanations and assessments without asking an AI to
+produce those judgments. The 38 reviews were made after both human and AI labels
+were visible; they are student-authored retrospective assessments, not blinded
+independent annotations or independent adjudication.
+
+An auxiliary AI assistant provided documented help with planning, prompt
+drafting, troubleshooting, feedback on the preparation annotations,
+interpretation support and verification assistance. The OpenCode analysis agent
+implemented the analysis and documentation scripts, and a Gemini model
+produced the AI classifications.
+
 ## Project navigation
 
 - [`plan.md`](plan.md) — research question, hypothesis, analysis plan.
@@ -43,10 +59,10 @@ The full narrative is in [`final_report.md`](final_report.md).
 - [`results/student_excel_verification.md`](results/student_excel_verification.md)
   — student-executed Excel arithmetic check.
 - [`mistakes.md`](mistakes.md) — documented agent mistakes and corrections.
+- [`results/agent_run/analysis_model_metadata.md`](results/agent_run/analysis_model_metadata.md)
+  — recorded OpenCode model identifiers for the two analysis runs.
 - [`results/final_delivery_checklist.md`](results/final_delivery_checklist.md)
   — final readiness checks and any remaining items.
-- [`archive/2026-11-14_documentation_corrections/`](archive/2026-11-14_documentation_corrections/)
-  — pre-correction versions of `final_report.md`, `README.md` and the checklist.
 
 ## Reproducing the analysis without new API calls
 
@@ -89,6 +105,10 @@ uv run --with openpyxl src/22_final_verification.py
   `results/final_delivery_checklist.md`. A local `.env` is optional and is
   not required to reproduce the saved analysis; the verifier reports whether it
   is present without reading it.
+- `src/23_record_analysis_model_metadata.py` records the OpenCode model
+  identifiers for both runs from the local session store. It is a provenance
+  record, not part of reproducing the numbers, and cannot run without that
+  store.
 
 ### Regenerate the analysis in a separate copy
 
@@ -180,9 +200,10 @@ only and is never written to project outputs. `.env` and `.env.*` are ignored.
   ignored.
 - No secrets are included in this README or in the reports. Do not add API keys,
   credentials or `.env` contents to tracked files.
-- This directory is not currently a Git repository (`git` is not installed and
-  there is no `.git/` directory here), so there are no tracked-file or staging
-  checks to perform locally. GitHub publication has not been done.
+- A local Git repository pre-dates this revision: a `.git/` directory and index
+  are present, and a remote is configured. No Git client is installed here, so
+  status, diff and full tracked-file history checks were not possible. This
+  revision made no commit, push or publication.
 
 ## Data and license notes
 

@@ -7,7 +7,7 @@
 
 ## What was done
 
-The student imported `results/workflow_run/comparison_table.csv` into Excel. ChatGPT supplied the formulas below; the student entered and executed them in the workbook; this was not an unaided manual calculation.
+The student imported `results/workflow_run/comparison_table.csv` into Excel. An auxiliary AI assistant supplied the formulas below; the student entered and executed them in the workbook; this was not an unaided manual calculation.
 
 In column `F` (`my_check`), rows 2 to 201, the student entered a direct comparison of the human and AI labels. The formula in `F2` is `=--(B2=C2)`, and the same pattern continues through `F201` (`=--(B201=C201)`). Column `B` is `human_label`; column `C` is `ai_label`. The comparison does not use the existing `agreement` column in `E`.
 
@@ -23,7 +23,7 @@ There are 200 formula cells in `F2:F201`, one per item. Their saved results are 
 
 ## Reported inspection
 
-The student reports that ChatGPT inspected the uploaded workbook and confirmed all 200 formulas and their saved results.
+The student reports that an auxiliary AI assistant inspected the uploaded workbook and confirmed all 200 formulas and their saved results.
 
 ## What this check supports
 

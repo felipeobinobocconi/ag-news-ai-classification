@@ -10,3 +10,8 @@
 8. **When a task explicitly prohibits file creation or modification, do not write scripts, reports or logs.** Explain any conflict with standing instructions before proceeding.
 9. **Write all project analyses, reports and documentation in English. Preserve original source texts.**
 10. **Consult `data/README.md` before working with project data. When an authorized change affects the documented schema, provenance, or data properties, update the relevant documentation and report the change.**
+11. **Align matrix labels explicitly.** When deriving counts from a confusion matrix or any labelled table, select cells by their row and column labels and assert the expected shape. Never rely on positional diagonals or slices of non-square selections.
+12. **Search with explicit exclusions.** Before any glob, listing or content search, enumerate excluded directories and pass them as explicit exclusions to the command. Run orientation searches from the authorised input list, not the project root.
+
+Rules 11 and 12 are prospective. They were added on 2026-11-17 after the
+mistakes recorded in `mistakes.md`; they did not apply to the earlier runs.

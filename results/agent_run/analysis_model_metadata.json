@@ -1,0 +1,72 @@
+{
+  "script": "src/23_record_analysis_model_metadata.py",
+  "run_utc": "2026-11-17T14:35:00.338077+00:00",
+  "source": "Local OpenCode session store, read in read-only mode. No prompt or response text was copied into this file.",
+  "note": "The OpenCode agent is the analysis assistant. It is not the classifier; the AI labels were produced separately by the Gemini API model recorded in the classification freeze note.",
+  "runs": [
+    {
+      "run": "workflow_run",
+      "session_title": "Data analysis assignment setup",
+      "session_id": "ses_e54d9108dffeng0evfFnR5vdWc",
+      "agent": "build",
+      "cli_version": "2.2.5",
+      "session_start_utc": "2026-11-05T10:00:18.054000+00:00",
+      "session_model": "opencode/deepseek-v4.1-flash-free",
+      "session_model_variant": "default",
+      "assistant_messages_by_model": {
+        "opencode/glm-5.3-flash-free": 107,
+        "opencode/deepseek-v4.1-flash-free": 45
+      },
+      "scripts": {
+        "11_agreement_overall": {
+          "opencode/deepseek-v4.1-flash-free": 7
+        },
+        "12_category_hypothesis": {
+          "opencode/deepseek-v4.1-flash-free": 7
+        }
+      }
+    },
+    {
+      "run": "agent_run",
+      "session_title": "Autonomous evaluation agreement run",
+      "session_id": "ses_e25ca40cfffeBwMwykmm0E7pxD",
+      "agent": "build",
+      "cli_version": "2.2.5",
+      "session_start_utc": "2026-11-14T13:18:37.905000+00:00",
+      "session_model": "opencode/deepseek-v4.1-flash-free",
+      "session_model_variant": "default",
+      "assistant_messages_by_model": {
+        "opencode/deepseek-v4.1-flash-free": 257
+      },
+      "scripts": {
+        "13_agent_run_verify_inputs": {
+          "opencode/deepseek-v4.1-flash-free": 40
+        },
+        "14_agent_run_agreement": {
+          "opencode/deepseek-v4.1-flash-free": 39
+        },
+        "15_agent_run_category_comparison": {
+          "opencode/deepseek-v4.1-flash-free": 29
+        },
+        "16_agent_run_confusion_figure": {
+          "opencode/deepseek-v4.1-flash-free": 27
+        },
+        "17_agent_run_verify_outputs": {
+          "opencode/deepseek-v4.1-flash-free": 42
+        },
+        "18_reconcile_runs": {
+          "opencode/deepseek-v4.1-flash-free": 48
+        },
+        "20_consolidate_review": {
+          "opencode/deepseek-v4.1-flash-free": 28
+        },
+        "21_original_label_comparison": {
+          "opencode/deepseek-v4.1-flash-free": 31
+        },
+        "22_final_verification": {
+          "opencode/deepseek-v4.1-flash-free": 49
+        }
+      }
+    }
+  ]
+}

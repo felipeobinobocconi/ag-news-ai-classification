@@ -1,8 +1,8 @@
 # Preparation Assistance Note
 
 - Date: 2026-11-12
-- **ChatGPT helped review the preparation annotations** (the 20 texts in the
-  preparation exercise) and refine the classification codebook; the
+- **An auxiliary AI assistant helped review the preparation annotations** (the 20
+  texts in the preparation exercise) and refine the classification codebook; the
   clarifications recorded in codebook version 0.3 and the frozen version 1.0
   grew out of that review.
 - The student completed the **initial preparation labels before receiving

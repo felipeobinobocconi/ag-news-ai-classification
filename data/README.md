@@ -62,7 +62,8 @@ verification.
 
 The core data properties were recomputed in user-executed, AI-assisted checks
 outside the agent's inspection script. The verification commands were supplied
-by ChatGPT. Fully duplicated rows were reported by the inspection script only.
+by an auxiliary AI assistant. Fully duplicated rows were reported by the
+inspection script only.
 
 | Property | Value | Supporting report |
 | -------- | ----- | ----------------- |
