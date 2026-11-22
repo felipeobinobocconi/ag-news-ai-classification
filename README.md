@@ -10,6 +10,14 @@ The project is a study of **agreement with a manual reference**, not a measure
 of accuracy against ground truth. It does not measure editorial time savings or
 downstream publishing quality.
 
+## Submission guide
+
+- **Code:** [`src/`](src/)
+- **Analysis:** [`final_report.md`](final_report.md)
+- **Error analysis:** [`mistakes.md`](mistakes.md) and
+  [`final_report.md` §8](final_report.md#8-agent-mistakes-and-implications)
+- **Personal reflection:** [`personal_reflection.pdf`](personal_reflection.pdf)
+
 ## Key findings
 
 | Finding | Result | Source |
